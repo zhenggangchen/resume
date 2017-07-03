@@ -129,7 +129,7 @@ $(document).ready(function() {
         setProjects();
     });
 
-   $(".fancybox").fancybox();
+  
 });
 
 wow = new WOW({
