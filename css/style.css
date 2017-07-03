@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:800,700,400);
-@import url(http://fonts.googleapis.com/css?family=Signika:400,600);
+@import url(https://fonts.googleapis.com/css?family=Raleway:800,700,400);
+@import url(https://fonts.googleapis.com/css?family=Signika:400,600);
 
 /* Common style */
 
@@ -41,13 +41,16 @@
 
 .grid figure figcaption,
 .grid figure figcaption > a {
+    text-decoration: none;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
-
+.grid figure figcaption a:hover {
+    text-decoration: none;
+}
 /* Anchor will cover the whole item by default */
 
 /* For some effects it will show as a button */
