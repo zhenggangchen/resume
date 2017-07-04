@@ -407,6 +407,15 @@ p {
     color: #fff;
     margin: 0 0 35px 0;
 }
+.service-wrapper{
+    background: #444 url("../img/fullbg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
 
 /* 响应式之前的样式
 ---------------------------------*/
