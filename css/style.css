@@ -48,9 +48,11 @@
     width: 100%;
     height: 100%;
 }
+
 .grid figure figcaption a:hover {
     text-decoration: none;
 }
+
 /* Anchor will cover the whole item by default */
 
 /* For some effects it will show as a button */
@@ -365,8 +367,10 @@ p {
 ---------------------------------*/
 
 #service {
+
     padding: 110px 0;
     background: #03A9F4;
+    /*background: url("../img/bg.jpg");*/
 }
 
 #service h2 {
@@ -408,6 +412,43 @@ p {
     font-size: 14px;
     color: #fff;
     margin: 0 0 35px 0;
+}
+
+/*7月4日*/
+/*#servic {height:auto; width:100%; background-color:#9C58B6; color:#FFFFFF; padding-bottom:160px; }*/
+/*#servic .skill-title {width:300px; margin:0 auto; padding-top:100px; text-align:center;}*/
+#service .skills {
+    height: auto;
+    width: auto;
+}
+
+#service ul {
+    display: inline-block;
+    height: auto;
+    width: 210px;
+    margin: 80px 0 0 56px;
+    border: 2px solid #FFFFFF;
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    vertical-align: top;
+}
+
+#service li {
+    height: 36px;
+    line-height: 36px;
+    color: white;
+}
+
+#service li:first-child {
+    background-color: #FFFFFF;
+    color: #333;
+}
+
+#service li:hover {
+    background-color: #FFFFFF;
+    color: #333;
+    cursor: default;
 }
 
 /* 响应式之前的样式
@@ -939,7 +980,9 @@ img {
 }
 
 /* Portfolio Isotope Transitions */
-
+.skill-wrapper{
+    padding: 10px;
+}
 .isotope,
 .isotope .isotope-item {
     -webkit-transition-duration: 0.8s;
@@ -1077,11 +1120,11 @@ img {
 }
 
 .card.hovercard .cardheader {
-    /* background: url("http://lorempixel.com/850/280/nature/4/"); */
-
+    /*background: url("http://lorempixel.com/850/280/nature/4/");*/
+    background: url("../img/bg1.jpg");
     background-size: cover;
     height: 210px;
-    background: #0797d8;
+    /*background: #0797d8;*/
 }
 
 .card.hovercard .avatar {
@@ -1213,6 +1256,10 @@ img {
 
     .contact_section {
         margin: 0;
+    }
+
+    .contact_section p {
+        line-height: normal;
     }
 
     h2,
