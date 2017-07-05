@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:800,700,400);
 @import url(https://fonts.googleapis.com/css?family=Signika:400,600);
 
-
 /* Common style */
 
 .grid figure {
@@ -54,6 +53,7 @@
 /* For some effects it will show as a button */
 
 .grid figure figcaption > a {
+    text-decoration: none;
     z-index: 1000;
     text-indent: 200%;
     white-space: nowrap;
@@ -78,6 +78,9 @@
 .grid figure p {
     /* letter-spacing: 1px; */
     font-size: 68.5%;
+}
+.grid figure a {
+   text-decoration: none;
 }
 
 /*---------------*/
@@ -408,7 +411,8 @@ p {
     color: #fff;
     margin: 0 0 35px 0;
 }
-.service-wrapper{
+
+.service-wrapper {
     background: #444 url("../img/fullbg.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -416,6 +420,40 @@ p {
     background-size: cover;
     background-position: center center;
     overflow: hidden;
+}
+
+#service .skills {
+    height: auto;
+    width: auto;
+}
+
+#service ul {
+    display: inline-block;
+    height: auto;
+    width: 210px;
+    margin: 80px 0 0 56px;
+    border: 2px solid #FFFFFF;
+    font-size: 20px;
+    font-family: "Microsoft YaHei light";
+    text-align: center;
+    vertical-align: top;
+}
+
+#service li {
+    height: 36px;
+    line-height: 36px;
+    color: white;
+}
+
+#service li:first-child {
+    background-color: #FFFFFF;
+    color: #333;
+}
+
+#service li:hover {
+    background-color: #FFFFFF;
+    color: #333;
+    cursor: default;
 }
 
 /* 响应式之前的样式
@@ -679,7 +717,7 @@ img {
 }
 
 .contact_info p {
-    line-height: 28px;
+    height: 28px;
     display: block;
     font-size: 16px;
     color: #ffffff;
@@ -750,6 +788,7 @@ img {
 }
 
 .footer_wrapper .contact_section p {
+    line-height: normal;
     display: block;
     position: relative;
     margin: 0 auto;
